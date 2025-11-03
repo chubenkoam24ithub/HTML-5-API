@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Практическая работа: HTML5 API</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <meta name="theme-color" content="#007bff" />
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-links">
+            <a href="/home">Home</a>
+            <a href="/about">About</a>
+            <a href="/canvas">Canvas</a>
+            <a href="/worker">Worker</a>
+        </div>
+        <div class="nav-buttons">
+            <button id="back">Назад</button>
+            <button id="forward">Вперед</button>
+            <button id="theme-toggle">🌙 Темная тема</button>
+        </div>
+    </nav>
+
+    <main class="main">
+        <h1 id="page-title">Добро пожаловать</h1>
+        <div id="content" class="content">Загрузка страницы...</div>
+
+        <section id="canvas-container" class="section" style="display: none;">
+            <canvas id="myCanvas"></canvas>
+            <div class="controls">
+                <button id="start-animation">Запустить анимацию</button>
+                <button id="stop-animation">Остановить анимацию</button>
+                <button id="clear-balls">Очистить шарики</button>
+            </div>
+            <p>Кликните (или тапните) на холст, чтобы добавить шарик! FPS: <span id="fps">0</span></p>
+        </section>
+
+        <section id="worker-section" class="section" style="display: none;">
+            <h2>Вычисления в Web Worker</h2>
+            <label for="worker-input">Введите число (сумма квадратов до N, мин. 1 000 000):</label>
+            <input type="number" id="worker-input" value="10000000" min="1000000" />
+            <button id="start-worker">Запустить вычисления</button>
+            <button id="cancel-worker" style="display:none; background:#dc3545;">Отменить</button>
+            <progress id="worker-progress" value="0" max="100" style="width:100%; display:none;"></progress>
+            <div id="result" class="result">Результат: </div>
+            <div id="status" class="status"></div>
+            <div id="error" class="error"></div>
+        </section>
+    </main>
+
+    <script src="/script/app.js"></script>
+</body>
+</html>

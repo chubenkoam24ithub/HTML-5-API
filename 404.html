@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Практическая работа: HTML5 API</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" href="/icons/icon-192.png" />
+    <meta name="theme-color" content="#007bff" />
+    <script>
+        // Сохраняем оригинальный путь и редиректим на index.html
+        sessionStorage.setItem('spa-path', location.pathname + location.search);
+        location.replace('/index.html' + location.search);
+    </script>
+</head>
+<body></body>
+</html>
