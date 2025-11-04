@@ -1,0 +1,10 @@
+{
+  "name": "html5-api-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
