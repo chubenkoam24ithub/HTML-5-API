@@ -1,10 +1,13 @@
 {
   "name": "html5-api-demo",
   "version": "1.0.0",
+  "description": "HTML5 API Demo",
+  "main": "server.js",
   "scripts": {
-    "deploy": "gh-pages -d ."
+    "start": "node server.js"
   },
-  "devDependencies": {
-    "gh-pages": "^6.1.1"
-  }
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {}
 }
