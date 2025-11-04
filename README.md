@@ -28,7 +28,6 @@
 
 | Вариант | Ссылка |
 |--------|--------|
-| **GitHub Pages (статический)** | [https://chubenkoam.github.io/html-5-api/](https://chubenkoam.github.io/html-5-api/) |
 | **Render.com (с Node.js сервером)** | [https://html5-api-demo.onrender.com](https://html5-api-demo.onrender.com) |
 
 ---
