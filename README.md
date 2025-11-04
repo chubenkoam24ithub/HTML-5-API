@@ -28,7 +28,7 @@
 
 | Вариант | Ссылка |
 |--------|--------|
-| **Render.com (с Node.js сервером)** | [https://html5-api-demo.onrender.com](https://html5-api-demo.onrender.com) |
+| **Render.com (с Node.js сервером)** | [[https://html5-api-demo.onrender.com](https://html5-api-demo.onrender.com)](https://html-5-api.onrender.com/) |
 
 ---
 
